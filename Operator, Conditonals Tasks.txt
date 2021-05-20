@@ -1,0 +1,118 @@
+Operator Task1
+
+public class OperatorsTask {
+
+	public static void main(String[] args) {
+		addition( 2, 5);
+        multiplication( 3, 6);
+        subtraction ( 5, 8);
+        division ( 18, 3);
+	}
+     public static void addition(int num1, int num2) {
+    	 int result = num1 + num2;
+ 		System.out.println(result);
+     }
+     
+     public static void multiplication(int num1, int num2) {
+    	 int result = num1 * num2;
+    	 System.out.println(result);
+     }
+     
+     public static void subtraction(int num1, int num2) {
+    	 int result = num1 - num2;
+    	 System.out.println(result);
+     }
+     
+     public static void division(int num1, int num2) {
+    	 int result = num1 / num2;
+    	 System.out.println(result);
+    	 
+     }
+
+Task 2
+
+public class OperatorTask2 {
+
+	public static void main(String[] args) {
+		addition( 100, 120, 145);
+
+	}
+
+	public static void addition(int num1, int num2, int num3) {
+		int result = num1 + num2 + num3;
+		System.out.println("Biology mark is " + num1 + " out of 150. ");
+		System.out.println("Chemistry mark is " + num2 + " out of 150. ");
+		System.out.println("Physics mark is " + num2 + " out of 150. ");
+		System.out.println("Total marks for exams is " + result + ".");
+	}
+}
+
+
+
+
+
+
+	public static void addition(int num1, int num2, int num3) {
+		int result = num1 + num2 + num3;
+		System.out.println("Biology mark is " + num1 + " out of 150. ");
+		System.out.println("Chemistry mark is " + num2 + " out of 150. ");
+		System.out.println("Physics mark is " + num2 + " out of 150. ");
+		System.out.println("Total marks for exams is " + result + " out of 450.");
+	}
+	
+	public static void resultPercent( double Overallpercentage, int Biology, int Chemistry, int Physics) {
+		System.out.println("Overall percentage for total exams mark is " + Overallpercentage + "%.");
+
+
+
+
+Conditionals Task 1
+
+public static void division(int num1, int num2) {
+    	 int result = num1 / num2;
+    	 
+    	 if(num1 < num2) {
+    	 System.out.println(result);
+    	 } else {
+    		 System.out.println("This division cannot be performed.");
+    	 }
+
+
+Task 2
+
+	public static void Percent( double Overallpercentage, int Biology, int Chemistry, int Physics) {
+		
+		
+		if (((Biology * 100) / 150) > 60) {
+			System.out.println("Your Biology grade is " + Biology + ". Your Biology percentage is " + ((Biology * 100) / 150) + "%." );
+		} else {
+			System.out.println("You have failed Biology."); 
+	} 
+		if (((Chemistry * 100) / 150) > 60) {
+			System.out.println("Your Chemistry grade is " + Chemistry + ". Your Chemistry percentage is " + ((Chemistry * 100) / 150) + "%.");
+		} else { 
+			System.out.println("You have failed Chemistry.");
+		}
+		
+		if (((Physics * 100) / 150) > 60) {
+			System.out.println("Your Physics grade is " + Physics + ". Your Physics percentage is " + ((Physics *100) / 150) + "%.");
+		} else {
+			System.out.println("You have failed Physics.");
+		}
+		
+	}
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
